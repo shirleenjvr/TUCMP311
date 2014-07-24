@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TUCMP311_1</string>
+    <string name="welcomeTXT">Welcome!</string>
+    <!-- Description here -->
+    <string name="downloadTXT">Internet access is needed to synchronise resources</string>
+    <!-- Description here -->
+    <string name="messageTXT">This applications resources is avaible offline.</string>
+    <!-- Description here -->
+    <string name="downloadBTN">Download</string>
+    <!-- Description here -->
+    <string name="nextBTN">Next</string>
+    <!-- Description here -->
+    <string name="logo"></string>
+    <string name="title_activity_single_tutorial">SingleTutorialActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tutorial_list">TutorialListActivity</string>
+    <string name="title_activity_category_list">CategoryListActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Users</string>
+    <string name="plus">"+"</string>
+    <string name="adduser">"Add User"</string>
+    <string name="user">"User"</string>
+    <string name="hint">"Enter User's Name"</string>
+    <string name="save">"Save"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="adduseractivitylabel">"Add User Activity"</string>
+    <string name="title_activity_comment_add">CommentAddActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_tutorials">TutorialsActivity</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_all_comments">AllCommentsActivity</string>
+    <string name="title_activity_sync">SyncActivity</string>
+    <string name="title_activity_all_categories">AllCategoriesActivity</string>
+    <string name="title_activity_all_tutorials">AllTutorialsActivity</string>
+    <string name="title_activity_add_comment">AddCommentActivity</string>
+
+</resources>

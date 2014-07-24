@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <EditText
+        android:id="@+id/userComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:ems="10" android:hint="@string/hint">
+ 
+        <requestFocus />
+    </EditText>
+    
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userComment"
+        android:layout_below="@+id/userComment"
+        android:layout_marginTop="32dp"
+        android:text="@string/save"     
+        android:onClick="addNewComment" />
+ <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userComment"
+        android:layout_toRightOf="@+id/btnadd"
+        android:layout_marginTop="32dp"
+        android:text="@string/cancel"     
+        android:onClick="cancelAddComment" />
+
+</RelativeLayout>
